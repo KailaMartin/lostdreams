@@ -37,6 +37,9 @@ _it contains the following
 `if %start% equ YES goto inst.`
 `if %start% equ NO goto opening`
 `if %start% neq YES goto end`
+
+---------------------------------------------------
+
 `:inst.`
 `cls`
 `echo.`
