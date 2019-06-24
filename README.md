@@ -20,6 +20,6 @@ _it contains the following
 - exit
 
 -------------------------------------------------
-
+## [Document](https://github.com/KailaMartin/lostdreams/blob/readme-edits/lostdreams.bat)
 
 -------------------------------------------------------
