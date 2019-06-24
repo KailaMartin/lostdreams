@@ -22,21 +22,20 @@ _it contains the following
 -------------------------------------------------
 ## Opening and Instructions
 
-- `@echo off`
-- `color 5b`
-- `cls`
-- `:opening`
-- `cls`
-- `echo.`
-- `echo Hello, what is your name?`
-- `echo.`
-- `set /p name=`
-- `title name=%name%`
-- `echo Do you wish to read instructions? YES or NO`
-- `set /p start=`
-- `if %start% equ YES goto inst.`
-- `if %start% equ NO goto opening`
-- `if %start% neq YES goto end`
+| - `@echo off` |
+| - `color 5b` |
+| - `:opening` |
+| - `cls` |
+| - `echo.` |
+| - `echo Hello, what is your name?` |
+| - `echo.` |
+| - `set /p name=`|
+| - `title name=%name%`|
+|- `echo Do you wish to read instructions? YES or NO`|
+|- `set /p start=`|
+|- `if %start% equ YES goto inst.`|
+|- `if %start% equ NO goto opening`|
+|- `if %start% neq YES goto end`|
 
 ---------------------------------------------------
 
